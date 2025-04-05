@@ -1,0 +1,16 @@
+{
+  "name": "Scratch_Highlighter",
+  "version": "1.0.0.0",
+  "manifest_version": 3,
+  "description": "Press shift+alt to highlight blocks",
+  "content_scripts": [{
+    "matches": ["https://scratch.mit.edu/projects/*/editor"],
+    "js": [
+      "content.js"
+    ]
+  }],
+  "icons": {
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  }
+}
